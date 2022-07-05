@@ -14,4 +14,4 @@ The colors are inspired from Unreal Engine 5, an engine that sucks for Linux but
 3. The theme is made for Unity Dark Mode **only**, so you'll have to give up your eye-killer to Light Mode.
 4. I specifically made this theme to go along with my Linux xmonad setup, if it looks weird on Windows (or other Linux DEs) then you'll either have to fix it yourself, or deal with it since I never use Windows with Unity and it's highly unlikely I'll be able to fix it properly.
 # Install
-Copy the `dark.uss` file into a new folder at `Assets/Editor/StyleSheets/`, then the theme should be applied. If it isn't, either hit `CTRL + R` or restart the Editor.
+Copy the `dark.uss` file into a new folder at `Assets/Editor/StyleSheets/Extensions`, then the theme should be applied. If it isn't, either hit `CTRL + R` or restart the Editor.
