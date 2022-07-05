@@ -4,7 +4,6 @@
 
 ## Why?
 Because Unity's own "Dark Mode" hurts my eyes, it's not a real dark mode. So why not modify the colors to actually make it dark instead?
-NOTE: C
 ## Credits
 This theme is a reskin of [Adapta](https://github.com/mauricepape/adapta-nokto-for-unity) from Mauri, the reason I decided to reskin his theme is because his theme included most (if not all) CSS/USS properties, saving me hours/days of work.
 
