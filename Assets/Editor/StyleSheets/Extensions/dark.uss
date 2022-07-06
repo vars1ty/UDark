@@ -15,8 +15,6 @@
 
 /* Used for the top bar (Play, Pause and other buttons) and bottom bar */
 .AppToolbar {
-    background-color: #121212;
-    border-top-color: #4992ff;
     border-width: 1px;
 }
 
@@ -26,21 +24,17 @@
 
 .PreToolbar,
 .Toolbar {
-    background-color: #121212;
-    border-left-color: #4992ff;
     border-width: 1px;
 }
 
 .AnimClipToolbarButton,
 .toolbarbutton {
-    background-color: #121212;
     border-width: 0;
 }
 
 .AnimClipToolbarButton:hover,
 .toolbarbutton:hover {
     background-color: #252525;
-    border-top-color: #4992ff;
     border-top-width: 1px;
     color: #FFFFFF;
 }
@@ -52,15 +46,12 @@
 .toolbarbutton:checked:active
 .toolbarbutton:active {
     background-color: #202020;
-    border-top-color: #2e6ed3;
     border-top-width: 1px;
     color: #FFFFFF;
 }
 
 .toolbarbuttonRight,
 .toolbarbuttonLeft {
-    background-color: #121212;
-    border-right-color: #4992ff;
     border-right-width: 1px;
 }
 
@@ -83,7 +74,6 @@
 /* ToolbarPopup can mainly be seen in the Game view */
 .ToolbarPopupLeft,
 .ToolbarPopup {
-    background-color: #121212;
     border-width: 0;
 }
 
@@ -94,43 +84,22 @@
 }
 
 .ToolbarSeachTextField {
-    background-color: #121212;
-    border-color: #4992ff;
-    border-top-color: #4992ff;
-    border-bottom-color: #4992ff;
     border-radius: 8px;
 }
 
 .ToolbarSeachTextField:hover {
     background-color: #252525;
-    border-color: #4992ff;
-    border-top-color: #4992ff;
-    border-bottom-color: #4992ff;
     color: #FFFFFF;
-}
-
-.ToolbarSeachTextField:focus:hover,
-.ToolbarSeachTextField:focus {
-    border-color: #4992ff;
-    border-top-color: #4992ff;
-    border-bottom-color: #4992ff;
 }
 
 .ToolbarSearchTextFieldWithJumpPopup:hover,
 .ToolbarSearchTextFieldWithJumpPopup:focus:active,
 .ToolbarSeachTextField:focus:active {
     background-color: #252525;
-    border-color: #4992ff;
-    border-top-color: #4992ff;
-    border-bottom-color: #4992ff;
     border-width: 1px;
 }
 
 .ToolbarSearchTextFieldWithJumpPopup {
-    background-color: #121212;
-    border-color: #4992ff;
-    border-top-color: #4992ff;
-    border-bottom-color: #4992ff;
     border-radius: 8px;
 }
 
@@ -145,13 +114,12 @@
 /*  Misc Elements Styling (Dropdowns, Buttons, etc...)  */
 /********************************************************/
 
-/* This colors most of the Buttons */
 .minibutton,
 .minibuttonleft,
 .minibuttonright,
 .AC-Button,
+.DropDownButton,
 .Button {
-    background-color: #121212; /*29353B*/
     border-radius: 8px;
 }
 
@@ -162,56 +130,194 @@
 .LargeButtonMid:hover,
 .LargeButtonRight:hover,
 .LargeButtonLeft:hover,
-.Button:hover {
+.DropDownButton:hover,
+.Button:hover,
+.TV-Selection,
+.SceneTopBarBg,
+.ProjectBrowserGridLabel:checked:focus,
+.SearchModeFilter:active,
+.SearchModeFilter:checked,
+ObjectField:hover,
+.LargeButtonMid:checked,
+.LargeButtonRight:checked,
+.LargeButtonLeft:checked,
+.MiniPopup:hover,
+.MiniPullDown:hover,
+.MainAccentColorBG {
     background-color: #4992ff;
 }
 
+.LargeButtonRight:active,
+.LargeButtonLeft:active,
+.LargeButtonMid:active,
 .minibutton:active,
 .minibuttonleft:active,
 .minibuttonright:active,
 .AC-Button:active,
-.Button:active {
+.DropDownButton:active,
+.Button:active,
+.SecondAccentColorBG {
     background-color: #2e6ed3;
 }
 
+.hostview,
+.quick-search-tips-section,
+#BoldTextField,
+ObjectField,
+ColorField,
+TextField,
+HorizontalSliderThumb,
+.ToolbarSearchTextFieldWithJumpPopup,
+.ToolbarSearchTextFieldWithJumpPopup:hover,
+.ToolbarSearchTextFieldWithJumpPopup:focus:active,
+.ToolbarSeachTextField:focus:active,
+.ToolbarSeachTextField:focus:hover,
+.ToolbarSeachTextField:focus,
+.ToolbarSeachTextField:hover,
+.ToolbarSeachTextField,
+.MainBorderAccentColor {
+    border-color: #4992ff;
+}
+
+#BoldTextField,
+.CN-Box,
+ObjectField,
+ColorField,
+TextField,
+ScriptText,
+ObjectPickerResultsEven:checked,
+.QualitySettingsDefault:active,
+ObjectPickerResultsOdd:checked,
+.dragtab-first:active,
+.dragtab-first:checked,
+.dragtab:active,
+.dragtab-first:hover,
+.MiniPopup:focus:hover,
+.MiniPopup:focus,
+.ToolbarSearchTextFieldWithJumpPopup,
+.ToolbarSearchTextFieldWithJumpPopup:hover,
+.ToolbarSearchTextFieldWithJumpPopup:focus:active,
+.ToolbarSeachTextField:focus:active,
+.ToolbarSeachTextField:focus:hover,
+.ToolbarSeachTextField:focus,
+.ToolbarSeachTextField:hover,
+.ToolbarSeachTextField,
+.AnimClipToolbarButton:hover,
+.toolbarbutton:hover,
+.AppToolbar,
+.MainTopBorderAccentColor {
+    border-top-color: #4992ff;
+}
+
+#BoldTextField,
+ObjectField,
+ColorField,
+TextField,
+.MiniPopup:focus:hover,
+.MiniPopup:focus,
+.ToolbarSearchTextFieldWithJumpPopup,
+.ToolbarSearchTextFieldWithJumpPopup:hover,
+.ToolbarSearchTextFieldWithJumpPopup:focus:active,
+.ToolbarSeachTextField:focus:active,
+.ToolbarSeachTextField:focus:hover,
+.ToolbarSeachTextField:focus,
+.ToolbarSeachTextField:hover,
+.ToolbarSeachTextField,
+.MainBottomBorderAccentColor {
+    border-bottom-color: #4992ff;
+}
+
+#IN-BigTitle,
+.MiniPopup:focus:hover,
+.MiniPopup:focus,
+.PreToolbar,
+.Toolbar.
+.MainLeftBorderAccentColor {
+    border-left-color: #4992ff;
+}
+
+.MiniPopup:focus:hover,
+.MiniPopup:focus,
+.toolbarbuttonRight,
+.toolbarbuttonLeft,
+.MainRightBorderAccentColor {
+    border-right-color: #4992ff;
+}
+
+#BoldTextField:hover,
+TextField:focus,
+TextField:focus:hover,
+ObjectField:focus,
+ColorField:focus,
+ObjectField:focus:hover,
+ColorField:focus:hover,
+.CN-CountBadge,
+TextField:hover,
+ObjectField:hover,
+.SecondBorderAccentColor {
+    border-color: #2e6ed3;
+}
+
+#BoldTextField:hover,
+TextField:focus,
+TextField:focus:hover,
+ObjectField:focus,
+ColorField:focus,
+ObjectField:focus:hover,
+ColorField:focus:hover,
+.CN-CountBadge,
+TextField:hover,
+ObjectField:hover,
+.dragtab:hover,
+.AnimClipToolbarButton:checked,
+.toolbarbutton:checked,
+.AnimClipToolbarButton:active,
+.AnimClipToolbarButton:checked:active,
+.toolbarbutton:checked:active
+.toolbarbutton:active,
+.SecondTopBorderAccentColor {
+    border-top-color: #2e6ed3;
+}
+
+#BoldTextField:hover,
+TextField:focus,
+TextField:focus:hover,
+ObjectField:focus,
+ColorField:focus,
+ObjectField:focus:hover,
+ColorField:focus:hover,
+.CN-CountBadge,
+TextField:hover,
+ObjectField:hover,
+.SecondBottomBorderAccentColor {
+    border-bottom-color: #2e6ed3;
+}
+
 .FoldoutHeader {
-    background-color: #121212;
     border-width: 0;
 }
 
 .MiniPopup,
 .MiniPullDown {
-    background-color: #121212;
     border-radius: 8px;
     color: #CFD8DC;
 }
 
 .MiniPopup:hover,
 .MiniPullDown:hover {
-    background-color: #4992ff;
     color: #FFFFFF;
-}
-
-.MiniPopup:focus:hover,
-.MiniPopup:focus {
-    border-top-color: #4992ff;
-    border-bottom-color: #4992ff;
-    border-left-color: #4992ff;
-    border-right-color: #4992ff;
 }
 
 /* Tool Handle Position ... */
 .LargeButtonMid,
 .LargeButtonRight,
 .LargeButtonLeft {
-    background-color: #121212;
     border-width: 0;
 }
 
 .LargeButtonMid:checked,
 .LargeButtonRight:checked,
 .LargeButtonLeft:checked {
-    background-color: #4992ff;
     border-width: 0;
     color: #FFFFFF;
 }
@@ -219,16 +325,10 @@
 .LargeButtonRight:active,
 .LargeButtonLeft:active,
 .LargeButtonMid:active {
-    background-color: #2e6ed3;
     color: #FFFFFF;
 }
 
-.dockarea {
-    background-color: #121212;
-}
-
 .dockHeader {
-    background-color: #121212;
     border-width: 0;
 }
 
@@ -236,21 +336,16 @@
 .dragtab-first:checked,
 .dragtab:active,
 .dragtab-first:hover {
-    background-color: #121212;
-    border-top-color: #4992ff;
     border-top-width: 1px;
     color: #FFFFFF;
 }
 
 .dragtab {
-    background-color: #121212;
     border-width: 0;
     color: #FFFFFF;
 }
 
 .dragtab:hover {
-    background-color: #121212;
-    border-top-color: #2e6ed3;
     border-top-width: 1px;
     color: #FFFFFF;
 }
@@ -281,14 +376,90 @@ HorizontalScrollbarRightButton:hover,
 .RL-Header,
 .ProjectBrowserBottomBarBg,
 .SearchModeFilter,
+.hostview,
+.quick-search-tips-section,
+#BoldTextField,
+.IN-Title,
+.IN-Title:focus,
+ObjectField,
+ColorField,
+TextField,
+ObjectFieldButton:hover,
+ColorField:hover,
+ObjectFieldButton,
+ObjectPickerResultsEven:checked,
+.QualitySettingsDefault:active,
+ObjectPickerResultsOdd:checked,
+VerticalScrollbarThumb,
+VerticalScrollbarThumb:hover,
+VerticalScrollbarThumb:active,
+HorizontalScrollbarThumb,
+HorizontalScrollbarThumb:hover,
+.Tab-onlyOne,
+HorizontalScrollbarThumb:active,
+HorizontalSliderThumb,
+.FrameBox,
+.RL-Background,
+ScriptText,
+Window,
 .ProjectBrowserIconAreaBg {
     /* Basically the "main" viewport color */
     background-color: #0A0A0A;
 }
 
+#OL-EntryBackOdd,
+.RL-FooterButton:hover,
+.ProfilerScrollviewBackground,
+.ProfilerLeftPane,
+.ProfilerRightPane,
+.quick-search-tab-background,
+.quick-search-status-bar-background,
+ObjectPickerResultsOdd,
+.MultiColumnTopBar,
+#IN-BigTitle,
+.TV-Selection,
+#CN-EntryBackOdd,
+#IN-Footer,
+.AppToolbar,
+.Toolbar,
+.AnimClipToolbarButton,
+.toolbarbutton,
+.toolbarbuttonRight,
+.toolbarbuttonLeft,
+.ToolbarPopupLeft,
+.ToolbarPopup,
+.ToolbarSeachTextField,
+.ToolbarSearchTextFieldWithJumpPopup,
+.minibutton,
+.minibuttonleft,
+.minibuttonright,
+.AC-Button,
+.DropDownButton,
+.Button,
+.FoldoutHeader,
+.MiniPopup,
+.MiniPullDown,
+.LargeButtonMid,
+.LargeButtonRight,
+.LargeButtonLeft,
+.dockarea,
+.dockHeader,
+.dragtab-first:active,
+.dragtab-first:checked,
+.dragtab:active,
+.dragtab-first:hover,
+.dragtab,
+.dragtab:hover,
+.ProjectBrowserTopBarBg,
+.TE-ToolbarDropDown:hover {
+    background-color: #121212;
+}
+
+.hostview {
+    border-width: 1px;
+}
+
 .quick-search-tips-section {
-    background-color: #0A0A0A;
-    border-color: #4992ff;
     border-width: 1px;
 }
 
@@ -314,47 +485,27 @@ HorizontalScrollbarRightButton:hover,
     color: #C9EBFF;
 }
 
-.ProjectBrowserTopBarBg {
-    background-color: #121212;
-}
-
 .ProjectBrowserGridLabel:checked {
     background-color: #6EA197;
     color: #FFFFFF;
 }
 
 .ProjectBrowserGridLabel:checked:focus {
-    background-color: #4992ff;
     color: #FFFFFF;
 }
 
-/* Used by the wide border in the Hierarchy and its hover effect */
-{
-    background-color: #B8C1D9
-;
-}
-
 .CN-Box {
-    border-color: #4b4e58;
+    border-top-width: 1px;
+    border-width: 1px;
 }
 
 /* Used for highlighting in the hierarchy and other places */
 .TV-Selection {
-    background-color: #121212; /* 008062 */
-    border-top-color: #4992ff;
     border-width: 1px;
-}
-
-.SceneTopBarBg {
-    background-color: #4992ff;
 }
 
 
 #BoldTextField {
-    background-color: #0A0A0A;
-    border-color: #4992ff;
-    border-top-color: #4992ff;
-    border-bottom-color: #4992ff;
     border-radius: 8px;
     border-width: 1px;
     color: #CFD8DC;
@@ -362,9 +513,6 @@ HorizontalScrollbarRightButton:hover,
 
 #BoldTextField:hover {
     background-color: #202020;
-    border-color: #2e6ed3;
-    border-top-color: #2e6ed3;
-    border-bottom-color: #2e6ed3;
     border-radius: 8px;
     border-width: 1px;
     color: #FFFFFF;
@@ -383,13 +531,9 @@ HorizontalScrollbarRightButton:hover,
     background-color: #575f6f;
 }
 
-#CN-EntryBackOdd {
-    background-color: #121212;
-}
-
 #CN-EntryBackEven:checked,
 #CN-EntryBackOdd:checked {
-    background-color: #4992ff;
+    background-color: #202020;
     color: #FFFFFF;
 }
 
@@ -441,17 +585,13 @@ HorizontalScrollbarRightButton:hover,
 PreBackground,
 #IN-Footer {
     background-image: none;
-    background-color: #121212;
 }
 
 #IN-BigTitle {
-    background-color: #121212;
-    border-left-color: #4992ff;
     border-width: 1px;
 }
 
 .IN-Title {
-    background-color: #0A0A0A;
     border-color: #202020;
     border-bottom-color: #202020;
 }
@@ -471,7 +611,6 @@ PreBackground,
 }
 
 .IN-Title:focus {
-    background-color: #0A0A0A;
     border-color: #202020;
     border-bottom-color: #202020;
     border-width: 1px;
@@ -481,12 +620,9 @@ PreBackground,
 	background-color: #182328;
 }*/
 
-ObjectField, ColorField,
+ObjectField,
+ColorField,
 TextField {
-    background-color: #0A0A0A;
-    border-color: #4992ff;
-    border-top-color: #4992ff;
-    border-bottom-color: #4992ff;
     border-radius: 8px;
     border-width: 1px;
     color: #CFD8DC;
@@ -496,21 +632,15 @@ TextField:focus,
 TextField:focus:hover,
 ObjectField:focus, ColorField:focus,
 ObjectField:focus:hover, ColorField:focus:hover,
+.CN-CountBadge,
 TextField:hover {
     background-color: #202020;
-    border-color: #2e6ed3;
-    border-top-color: #2e6ed3;
-    border-bottom-color: #2e6ed3;
     border-radius: 8px;
     border-width: 1px;
     color: #FFFFFF;
 }
 
 ObjectField:hover {
-    background-color: #4992ff;
-    border-color: #2e6ed3;
-    border-top-color: #2e6ed3;
-    border-bottom-color: #2e6ed3;
     border-radius: 8px;
     border-width: 1px;
     color: #FFFFFF;
@@ -518,7 +648,6 @@ ObjectField:hover {
 
 ObjectFieldButton:hover, ColorField:hover,
 ObjectFieldButton {
-    background-color: #0A0A0A;
     border-radius: 10px;
     border-width: 10px;
 }
@@ -526,8 +655,6 @@ ObjectFieldButton {
 ObjectPickerResultsEven:checked,
 .QualitySettingsDefault:active,
 ObjectPickerResultsOdd:checked {
-    background-color: #0A0A0A;
-    border-top-color: #4992ff;
     border-width: 1px;
 }
 
@@ -543,7 +670,6 @@ HorizontalScrollbarThumb:hover,
 .Tab-onlyOne,
 HorizontalScrollbarThumb:active {
     background-image: none;
-    background-color: #0A0A0A;
     border-top-color: #202020;
     border-bottom-color: #202020;
     border-left-color: #202020;
@@ -556,23 +682,15 @@ HorizontalSlider {
 }
 
 HorizontalSliderThumb {
-    background-color: #0A0A0A;
-    border-color: #4992ff;
     border-width: 1px;
 }
 
 .FrameBox,
 .RL-Background {
-    background-color: #0A0A0A;
     border-top-color: #202020;
     border-bottom-color: #202020;
     border-left-color: #202020;
     border-right-color: #202020;
-}
-
-#OL-EntryBackOdd,
-.RL-FooterButton:hover, .TE-ToolbarDropDown:hover {
-    background-color: #121212;
 }
 
 .RL-FooterButton:active {
@@ -590,16 +708,6 @@ HorizontalSliderThumb {
     color: #FFFFFF;
 }
 
-.ProfilerScrollviewBackground,
-.ProfilerLeftPane,
-.ProfilerRightPane,
-.quick-search-tab-background,
-.quick-search-status-bar-background,
-ObjectPickerResultsOdd,
-.MultiColumnTopBar {
-    background-color: #121212;
-}
-
 .MultiColumnHeader, .MultiColumnHeaderCenter {
     color: #cfd8dc;
 }
@@ -610,16 +718,14 @@ ObjectPickerResultsOdd,
 }
 
 .SearchModeFilter:active, .SearchModeFilter:checked {
-    background-color: #16A085;
     color: #FFFFFF;
 }
 
 ScriptText {
-    background-color: #222C31;
+    border-width: 1px;
 }
 
 /* Used by e.g. the Stats window */
 Window {
-    background-color: #0A0A0A;
     border-radius: 5px;
 }
